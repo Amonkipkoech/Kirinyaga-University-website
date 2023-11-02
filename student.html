@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+         .body{
+             background-color: goldenrod;
+         }
+    </style>
+
+</head>
+<body class="body" >
+    <script> alert("this form is only filled by those who want to register to kyu")</script>
+      <h1>FILL THE REGESTRATION FORM BELOW</h1> 
+    <form action="connect.php" method="POST">
+       REGNO: <input type="regno" placeholder="Enter your reg number" name="REGNO" required ><br> <br> 
+       FIRST NAME: <input type="text" placeholder="enter your first name" name="FIRST NAME" required  > <br> <br>
+        LAST NAME: <input type="text" placeholder="enter your last name"  name="LAST NAME" required> <br> <br>
+        E-MAIL ADDRESS: <input type="email" placeholder="enter your email" name="EMAIL" required > <br> <br>
+        AGE: <input type="text" placeholder="enter your age" name="AGE" required > <br> <br>
+        <p>Choose your gender</p>
+       MALE: <input type="radio" value="male" id="male" name="gender" value="MALE" required >
+        FEMALE: <input type="radio" value="female" id="female" name="gender" value="FEMALE"  required>
+        OTHER: <input type="radio" value="other" id="other" name="gender" value="NULL" required> <br> <br>
+         <label type="county"> COUNTY:</label>
+        <select name="county" id="county" value placeholder="select your county" name="COUNTY" required>
+                <option value="null">Choose your county</option>
+                <option value="meru">MERU</option>
+                <option value="NAROK">NAROK</option>
+                <option value="NANDI">NANDI</option>
+                <option value="others"> -- Others --</option>
+            </select> <br> <br>  
+            <script style=""> prompt("enter your password")</script>     
+        <!-- look at how developers specify the file type in a form -->
+        <label type="county">COURSE:</label>
+        <select name="course" id="course" value placeholder="select your course" name="COURSE" required>
+            <option value="null">Choose your course</option>
+            <option value="BBIT"> BBIT</option>
+            <option value="UK">BIT</option>
+            <option value="COMPUTER SCIENCE"> COMPUTER SCIENCE</option>
+            <option value="others"> -- Others --</option>
+        </select>      <br> <br>      
+        <input type="submit" value="submit">
+     </form>
+     <p><a href=" kyu.html"> WEB:www.kyu.ac.ke</a></p>
+
+</body>
+</html>

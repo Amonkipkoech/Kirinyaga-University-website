@@ -1,0 +1,150 @@
+.body{
+       background-color: blanchedalmond;
+      }
+.header{
+        text-align: center;
+        background-color: gray;
+        border-radius: 16px;
+        display: inline-flex;
+       } 
+.icon{
+        float: left;
+        margin: 15px;
+}
+.events{
+    width: 100%;
+    
+       }
+.main ul{
+    list-style-type: none;
+   }
+ul li{
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: gray;
+}
+.school{
+    width: 100%;
+    display: inline-flex;
+   font-family: serif;
+}
+.pass{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.bussines{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.health{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.engeneering{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.hospitality{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+image{
+    width: 20%;
+}
+.about{
+    width: 100%;
+    display: inline-flex;
+}
+.legacy{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.mission{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.vission{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.chat{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.history{
+    width: 100%;
+    display: inline-flex;
+}
+.brian{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.sila{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.mary{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.victor{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+.resources{
+    width: 100%;
+    display: inline-flex;
+    background-color: green;
+}
+.student{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.admission{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.adress{
+    width: 20%;
+    margin: 10px;
+    padding-left: 20px;
+}
+.connect {
+    width: 100%;
+    display: inline-flex;
+    background-color: aqua;  
+}
+@media screen and (min-width:676px)
+                  {
+                    .school,.history{
+                              display: block;
+                              background-color: burlywood;
+                          }
+                  }
+@media screen and (min-width:768px)
+                 {
+                    .school,.history{
+                             display:inline-flex;
+                             background-color: blueviolet;
+                    }
+                 }
+@media screen and (max-width:1400px){}
+@media screen and (max-width:1400px){}
